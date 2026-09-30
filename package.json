@@ -1,0 +1,23 @@
+{
+  "name": "kort",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "turbo run dev"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "26.10.0",
+      "onFail": "download"
+    },
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.8.1",
+      "onFail": "download"
+    }
+  },
+  "devDependencies": {
+    "turbo": "^2.11.5"
+  }
+}
