@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "tsx watch --env-file=.env src/main.ts",
+    "build": "tsdown"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "tsdown": "^0.23.0",
+    "tsx": "^4.23.15"
+  }
+}

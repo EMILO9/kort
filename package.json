@@ -1,9 +1,9 @@
 {
   "name": "kort",
   "private": true,
-  "type": "module",
   "scripts": {
-    "dev": "turbo run dev"
+    "dev": "turbo run dev",
+    "build": "turbo run build"
   },
   "devEngines": {
     "runtime": {
